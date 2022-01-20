@@ -2,9 +2,9 @@
 
 <p>This component demonstrates fetching data from the server.</p>
 
-<p *ngIf="!forecasts"><em>Loading...</em></p>
+<p *ngIf="!pruebaSD"><em>Loading...</em></p>
 
-<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="pruebaSD">
   <thead>
     <tr>
       <th>Id</th>
@@ -13,7 +13,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let forecast of forecasts">
+    <tr *ngFor="let pruebasSD of pruebaSD">
       <td>{{ PruebaSD.Id }}</td>
       <td>{{ PruebaSD.nombre }}</td>
       <td>{{ PruebaSD.apellido  }}</td>
